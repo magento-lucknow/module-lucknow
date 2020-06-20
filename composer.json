@@ -1,0 +1,24 @@
+{
+  "name": "meetup/module-lucknow",
+  "description": "This module is used for meetup grumphp demonstration",
+  "require": {
+    "php": "7.2",
+    "magento/framework": "100.0.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Meetup\\Lucknow\\": ""
+    }
+  },
+    "config": {
+        "bin-dir": "../../../../vendor/bin"
+    }
+}
